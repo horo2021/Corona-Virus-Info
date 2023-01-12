@@ -1,0 +1,23 @@
+.title-container{
+    color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        margin-bottom: 1px;
+    }
+    img{
+        width: 80px;
+      
+        object-fit: contain;
+    }
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}

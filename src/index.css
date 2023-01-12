@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container{
+  min-height: calc(100vh);
+ 
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main-container::before{
+  background: url("assets/images/home-background.png") center center / cover
+  no-repeat fixed;        
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+   
+  
